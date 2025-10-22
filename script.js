@@ -1,27 +1,27 @@
 const productos = [
     { 
-        nombre: 'Juego de mesa-Operando',
-        descripcion: 'Entretenido juego de mesa para juegar en familia.',
+        nombre: 'amoguss',
+        descripcion: 'e un amongus, tira facha',
         precio: 300.99,
-        imagen: 'juego1.jpg'
+        imagen: 'amongus.jpeg'
      },
      {
-        nombre: 'Juego de mesa-Monopoly',
-        descripcion: 'juego ideal para jugar en familia.',
+        nombre: 'kyrby',
+        descripcion: ',e una bola rosada, toda linda, toda redonda.',
         precio: 350.99,
-        imagen: 'juego2.jpg'
+        imagen: 'kirby.jpeg'
      },
      {
-        nombre: 'Juego de mesa-destreza',
-        descripcion: 'increible juego de mesa para jugar con toda la familia',
+        nombre: 'garchomp',
+        descripcion: 'un dragon muy rudo, pero este e chikito',
         precio: 420.99,
-        imagen: 'juego3.jpg'
+        imagen: 'garchomp.jpeg'
         },
         {
-        nombre: 'Juego de mesa-Boli Crono', 
-        descripcion: 'Juego de mesa ideal para pasar el rato',
+        nombre: 'caballerito', 
+        descripcion: 'Sin mente para pensar. Sin voluntad para romperse. Sin voz para gritar sufrimiento, nacido de dios y el vacio',
         precio: 149.99,
-        imagen: 'juego4.jpg'
+        imagen: 'caballerito.jpeg'
      }
     ];
     
@@ -69,4 +69,5 @@ const productos = [
         });
     }
     
+
     window.onload = renderizarCatalogo;
